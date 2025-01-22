@@ -7,7 +7,7 @@ const cors = require("cors");
 app.use(express.json());
 
 app.use(cors ({
-    origin: "https://downloads-nine.vercel.app/"
+    origin: "https://downloads-nine.vercel.app"
 }))
 
 app.get("/", (req, res)=>{
