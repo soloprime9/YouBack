@@ -12,7 +12,7 @@ app.use(cors ({
 
 app.get("/", (req, res)=>{
     res.send("Hello Wrodl Bro")
-}
+})
 
 // app.get('/download-thumbnail', async (req, res) => {
 //     try {
