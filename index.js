@@ -10,6 +10,9 @@ app.use(cors ({
     origin: "http://localhost:3000"
 }))
 
+app.get("/", (req, res)=>{
+    res.send("Hello Wrodl Bro")
+}
 
 // app.get('/download-thumbnail', async (req, res) => {
 //     try {
